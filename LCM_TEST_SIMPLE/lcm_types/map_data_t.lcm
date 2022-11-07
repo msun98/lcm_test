@@ -1,0 +1,18 @@
+struct map_data_t
+{
+    string map_name;    
+    double  map_grid_w;
+    int32_t map_w;
+    int32_t map_h;
+    int32_t map_origin[2];
+           
+    int32_t len;
+    byte data[len];
+    
+    int32_t via_num;
+    double via_pos[via_num][3];
+
+    int32_t loc_num;
+    string loc_name[loc_num];
+    double loc_pos[loc_num][3];    
+}
