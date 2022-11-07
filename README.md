@@ -29,3 +29,4 @@ lcm-gen -x *.lcm (* lcm 이름 달린 모든 것을 전부 생성한다.)
 ```
 https://lcm-proj.github.io/tut_cpp.html
 ```
+생성된 파일을 실행하기 위해 LCM_TEST_SIMPLE 의 mainwindow.h에 #include 를 통해 
