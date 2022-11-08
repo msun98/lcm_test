@@ -21,9 +21,12 @@ struct example_t
 ```
 
 이 폴더에서는 map_data_t.lcm, example_t.lcm를 참고하면 된다. 
+
 위와 같이 lcm 파일을 생성하고 
 C++	-> lcm-gen -x example_t.lcm
+```
 lcm-gen -x *.lcm (* lcm 이름 달린 모든 것을 전부 생성한다.) 
+```
 < map_data_t.lcm, example_t.lcm 파일이 전부 생성된다.>
 
 ```
