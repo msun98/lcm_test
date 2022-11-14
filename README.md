@@ -33,3 +33,8 @@ lcm-gen -x *.lcm (* lcm 이름 달린 모든 것을 전부 생성한다.)
 https://lcm-proj.github.io/tut_cpp.html
 ```
 생성된 파일을 실행하기 위해 LCM_TEST_SIMPLE 의 mainwindow.h에 #include 를 통해 
+
+만약 sudo 로 설치를 원하는 라이브러리가 있는데 이름을 정확하게 모른다면
+```
+sudo apt search ~~~
+```
